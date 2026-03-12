@@ -60,12 +60,15 @@ export default function App() {
     <div className="min-h-screen flex flex-col font-sans">
       {/* Header - No Print */}
       <header className="no-print sticky top-0 z-50 bg-white/80 backdrop-blur-md border-bottom border-zinc-200 px-6 py-4 flex items-center justify-between shadow-sm">
-        <div className="flex items-center gap-3">
-          <div className="bg-zinc-900 p-2 rounded-lg">
-            <ShieldCheck className="w-6 h-6 text-white" />
-          </div>
+        <div className="flex items-center gap-4">
+          <img 
+            src="https://storage.googleapis.com/ar-auth-images/ais-pre-oqok6lsina62vobpxtbvmt-222146119323.asia-southeast1.run.app/input_file_0.png" 
+            alt="Secure Logic Logo" 
+            className="w-10 h-10 object-contain"
+            referrerPolicy="no-referrer"
+          />
           <div>
-            <h1 className="text-lg font-bold tracking-tight text-zinc-900">Macro Governance Portal</h1>
+            <h1 className="text-lg font-bold tracking-tight text-zinc-900">Secure Logic Governance</h1>
             <p className="text-xs text-zinc-500 font-medium uppercase tracking-widest">Security Compliance Framework</p>
           </div>
         </div>
